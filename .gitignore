@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# --- IDE / editors ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- ML training artifacts ---
+catboost_info/
+lightgbm_info/
+xgboost_info/
+*.cbm
+*.lgb
+*.xgb
+*.pkl
+*.joblib
+mlruns/
+wandb/
+
+# --- Large input data (uncomment to keep CSVs out of git) ---
+data/*.csv
+data/*.parquet
+data/*.feather
+
+# --- Logs / temp ---
+*.log
+*.tmp
+*.bak
+.cache/
