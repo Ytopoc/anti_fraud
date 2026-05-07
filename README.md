@@ -1,3 +1,5 @@
+[**English**](README.md) | [Українська](README.uk.md)
+
 # Anti-Fraud User Detection - SKELAR x mono AI
 
 A machine-learning pipeline for the SKELAR x mono AI competition that predicts
